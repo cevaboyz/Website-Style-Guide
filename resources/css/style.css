@@ -1,169 +1,208 @@
-    html {
-        font-size: 100px;
-        background-color: green;
-    }
-    
-    h2 {
-        text-align: center;
-    }
-    
-    h3 {
-        text-align: center;
-    }
-    
-    .colors {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .container {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .firstrow {
-        display: flex;
-        max-width: fit-content;
-    }
-    
-    .secondrow {
-        display: flex;
-        max-width: fit-content;
-    }
-    
-    .color1 {
-        background-color: #1D5962;
-        width: 2000px;
-        margin: 50px;
-        padding: 50px;
-    }
-    
-    .color2 {
-        background-color: #DDF5E5;
-        width: 2000px;
-        margin: 50px;
-        padding: 50px;
-    }
-    
-    .color3 {
-        background-color: #222222;
-        width: 2000px;
-        margin: 50px;
-        padding: 50px;
-    }
-    
-    .color4 {
-        background-color: #FF6633;
-        width: 2000px;
-        margin: 50px;
-        padding: 50px;
-    }
-    /*Fonts */
-    
-    .robotomain {
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 400;
-        text-decoration: underline;
-        text-align: center;
-    }
-    
-    .robotolight {
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: 100;
-        text-align: center;
-    }
-    
-    .robotoitalic {
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: 100;
-        text-align: center;
-        font-style: italic;
-    }
-    
-    .robotoregular {
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: normal;
-        text-align: center;
-    }
-    
-    .robotobold {
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: bold;
-        text-align: center;
-    }
-    
-    .droidmain {
-        font-family: "Droid Serif", serif;
-        font-weight: normal;
-        text-decoration: underline;
-        text-align: center;
-    }
-    
-    .droidlight {
-        font-family: "Droid Serif", serif;
-        font-weight: 100;
-        text-align: center;
-    }
-    
-    .droiditalic {
-        font-family: "Droid Serif", serif;
-        font-weight: 100;
-        font-style: italic;
-        text-align: center;
-    }
-    
-    .droidregular {
-        font-family: "Droid Serif", serif;
-        font-weight: normal;
-        text-align: center;
-    }
-    
-    .droidbold {
-        font-family: "Droid Serif", serif;
-        font-weight: bold;
-        text-align: center;
-    }
-    
-    .cabinmain {
-        font-family: "Cabin", sans-serif;
-        font-weight: normal;
-        text-decoration: underline;
-        text-align: center;
-    }
-    
-    .cabinlight {
-        font-family: "Cabin", sans-serif;
-        font-weight: 100;
-        text-align: center;
-    }
-    
-    .cabinitalic {
-        font-family: "Cabin", sans-serif;
-        font-weight: 100;
-        font-style: italic;
-        text-align: center;
-    }
-    
-    .cabinregular {
-        font-family: "Cabin", sans-serif;
-        font-weight: normal;
-        text-align: center;
-    }
-    
-    .cabinbold {
-        font-family: "Cabin", sans-serif;
-        font-weight: bold;
-        text-align: center;
-    }
-    
-    h1,
-    p {
-        text-align: center;
-    }
-    
-    ul,
-    li {
-        text-align: center;
-    }
+html {
+    font-size: 32px;
+    background-color: rgb(143, 143, 143);
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstrow {
+    display: flex;
+    max-width: fit-content;
+}
+
+.secondrow {
+    display: flex;
+    max-width: fit-content;
+}
+
+.color1 {
+    background-color: #1D5962;
+    width: 200px;
+    height: auto;
+    margin: 50px;
+    padding: 50px;
+}
+
+.color2 {
+    background-color: #DDF5E5;
+    width: 200px;
+    margin: 50px;
+    padding: 50px;
+}
+
+.color3 {
+    background-color: #222222;
+    width: 200px;
+    margin: 50px;
+    padding: 50px;
+    color: white;
+}
+
+.color4 {
+    background-color: #FF6633;
+    width: 200px;
+    margin: 50px;
+    padding: 50px;
+}
+
+
+/*Fonts */
+
+.robotomain {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.robotolight {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.robotoitalic {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-style: italic;
+}
+
+.robotoregular {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.robotobold {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.droidmain {
+    font-family: "Droid Serif", serif;
+    font-weight: normal;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.droidlight {
+    font-family: "Droid Serif", serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.droiditalic {
+    font-family: "Droid Serif", serif;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+
+.droidregular {
+    font-family: "Droid Serif", serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.droidbold {
+    font-family: "Droid Serif", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cabinmain {
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.cabinlight {
+    font-family: "Cabin", sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.cabinitalic {
+    font-family: "Cabin", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+
+.cabinregular {
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.cabinbold {
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+ul,
+li {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.btn {
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+    cursor: not-allowed;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    background-color: #FF6633;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
